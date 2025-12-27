@@ -79,12 +79,18 @@ function NavItemContent({
       )}
     >
       <span
-        className={cn("text-xl", isActive ? "text-primary" : "text-gray-700")}
+        className={cn(
+          "text-xl",
+          isActive ? "text-app-primary" : "text-gray-700"
+        )}
       >
         {item.icon(isActive)}
       </span>
       <span
-        className={cn("text-xs font-medium", isActive ? "text-primary" : "text-gray-700")}
+        className={cn(
+          "text-xs font-medium",
+          isActive ? "text-app-primary" : "text-gray-700"
+        )}
       >
         {item.name}
       </span>
