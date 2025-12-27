@@ -1,0 +1,21 @@
+- [userId]
+  - home
+  - goals
+    - new?
+      - goal="goal content"
+      - duration="duration value"
+      - start-date="start date"
+      - goal-desc="goal description"
+      - pledge="pledge content"
+      - ready-to-share=0/1 (0: not ready - display pledge, 1: ready)
+    - accept
+      - [goalId]
+        - (state)
+          - view
+          - join -> home
+          - decline -> really?
+  - [goalId]
+    - participation
+  - profile
+- login
+- sign-up
