@@ -2,7 +2,7 @@
   - home
   - goals
     - new?
-      - goal="goal content"
+      - title="goal title"
       - duration="duration value"
       - start-date="start date"
       - goal-desc="goal description"
@@ -19,3 +19,20 @@
   - profile
 - login
 - sign-up
+
+---
+
+- users
+  - id
+  - name
+  - bio
+  - avatarImage
+  - goals
+
+- goals
+ - id
+ - title
+ - description
+ - pledge
+ - startDate
+ - duration
